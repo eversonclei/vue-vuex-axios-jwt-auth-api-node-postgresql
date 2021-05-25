@@ -1,5 +1,7 @@
 # Vue.js - Autenticação de usuários 
 
+Projeto de autenticação em vue com cadastro de usuários e login.
+
 VueJS + Vuex + Axios + Bootstrap-Vue + Vue-Gravatar + Vue-Toasted + JWT + Backend NodeJS + PostgreSQL
 
 ## Instalando dependências do projeto backend
