@@ -9,9 +9,9 @@ VueJS + Vuex + Axios + Bootstrap-Vue + Vue-Gravatar + Vue-Toasted + JWT + Backen
 npm install
 ```
 
-## Arquivo .env 
+## Criação do banco de dados PostgreSQL
 ```
-Script para criação do banco de dados, exemplo:
+Script exemplo:
 
 	CREATE DATABASE auth WITH OWNER = postgres ENCODING = 'UTF8';
 
@@ -35,7 +35,10 @@ Script para criação do banco de dados, exemplo:
 	  Usuário Mock Default: admin@gmail.com - Senha: 123  
 	*/
 	INSERT INTO public.users ("id", "name", "email", "password", "admin")
-	VALUES (1, E'Admin', E'admin@gmail.com', E'$2a$10$rQMnhydle5AS7Lii7riM.ewWV0iG3zNFJUUXEHa2nKJ6hB9KNhUeK', True);  
+	VALUES (1, 
+	        E'Admin', 
+		E'admin@gmail.com', 
+		E'$2a$10$rQMnhydle5AS7Lii7riM.ewWV0iG3zNFJUUXEHa2nKJ6hB9KNhUeK', True);  
 
 ```
 
