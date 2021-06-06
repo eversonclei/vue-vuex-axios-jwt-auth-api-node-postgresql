@@ -1,7 +1,7 @@
 <template>
     <div class="auth-content">
         <div class="auth-modal">
-            <img src="@/assets/logo.png" width="200" alt="Logo" />
+            <img src="@/assets/logo.png" width="300" alt="Logo" />
             <hr>
 
             <div class="auth-title">{{ showSignup ? 'Cadastro' : 'Login'}}</div>
@@ -69,8 +69,8 @@ export default {
 
     .auth-modal {
         background-color: #fff;
-        width: 350px;
-        padding: 35px;
+        width: 400px;
+        padding: 25px;
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
         display: flex;
         flex-direction: column;
@@ -98,7 +98,7 @@ export default {
     }
 
     .auth-modal a {
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .auth-modal hr {

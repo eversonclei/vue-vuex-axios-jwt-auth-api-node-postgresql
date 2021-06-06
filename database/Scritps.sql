@@ -4,10 +4,7 @@
 */	
 
 	
-CREATE DATABASE auth
-  WITH OWNER = postgres
-    ENCODING = 'UTF8';
-
+CREATE DATABASE auth WITH OWNER = postgres ENCODING = 'UTF8';
 
 CREATE TABLE public.users (
   id SERIAL,
@@ -21,17 +18,12 @@ CREATE TABLE public.users (
 ) 
 WITH (oids = false);
 
-ALTER TABLE public.users
-  ALTER COLUMN id SET STATISTICS 0;
+ALTER TABLE public.users ALTER COLUMN id SET STATISTICS 0;
 
-ALTER TABLE public.users
-  OWNER TO postgres;
-
+ALTER TABLE public.users OWNER TO postgres;
 
 /* 
-	Usuário Padrão
-		User: admin@gmail.com
-		Pass: 123  
+	Usuário Mock Padrão: admin@gmail.com - Senha: 123  
 */
 INSERT INTO public.users ("id", "name", "email", "password", "admin")
 VALUES 
