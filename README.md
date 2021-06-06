@@ -1,5 +1,9 @@
 # Vue.js - Autenticação de usuários 
 
+<p align="center">
+  <img src="logo.png" width="350" title="VueJS">
+p>
+
 Projeto de autenticação em vue com cadastro de usuários e login.
 
 VueJS + Vuex + Axios + Bootstrap-Vue + Vue-Gravatar + Vue-Toasted + JWT + Backend NodeJS + PostgreSQL
