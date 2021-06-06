@@ -2,9 +2,9 @@
 
 <p><img src="logo.png" width="350" title="VueJS">
 
-Projeto de autenticação em vue com cadastro de usuários e login.
+**Projeto de autenticação base em Vue com cadastro de usuários e login.**
 
-VueJS + Vuex + Axios + Bootstrap-Vue + Vue-Gravatar + Vue-Toasted + JWT + Backend NodeJS + PostgreSQL
+VueJS + Bootstrap-Vue + Vuex + Vue-Gravatar + Vue-Toasted + Axios + JWT + Backend NodeJS + PostgreSQL
 
 ## Instalando dependências do projeto backend
 ```
