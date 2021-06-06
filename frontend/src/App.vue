@@ -48,7 +48,7 @@ export default {
 
 				// Validação MediaQuery 
 				if (this.$mq === 'xs' || this.$mq === 'sm') {
-					//console.log('Passando na validação de MediaQuery...')
+					//console.log('Passando na validação de MediaQuery.')
 					this.$store.commit('toggleMenu', false) // Oculta menu dependendo do dispositivo!
 				} 
 
