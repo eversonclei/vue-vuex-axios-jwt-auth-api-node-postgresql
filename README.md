@@ -1,8 +1,6 @@
 # Vue.js - Autenticação de usuários 
 
-<p align="center">
-  <img src="logo.png" width="350" title="VueJS">
-p>
+<p><img src="logo.png" width="350" title="VueJS">
 
 Projeto de autenticação em vue com cadastro de usuários e login.
 
