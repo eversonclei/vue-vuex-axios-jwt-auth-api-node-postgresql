@@ -76,7 +76,6 @@ npm run serve
 ### Compilação e minificação para produção
 ```
 npm run build
-
 ```
 
 ### Personalizar configuração
